@@ -1,0 +1,94 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: century;
+}
+header{
+  background-color:white;
+    background-size: cover;
+    height:100vh;
+}
+ul{
+    list-style-type: none;
+   float:right;
+   margin-top:20px;
+}
+ul li{
+    display:inline-block;
+    width:80px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color:maroon;
+    padding:1px 2px;
+   transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: yellowgreen;
+    color:black;
+}
+.div{float:left;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.wrapper{
+    width:1200px;
+    margin:1px auto;
+}
+.title{
+    text-align: center;
+    margin-bottom:60px;
+}
+.title h4{
+    text-transform:capitalize;
+    font-size:36px;
+    position:relative;
+    display: inline-block;
+padding-bottom: 10px;
+}
+.title h4 span{
+    display:block;
+    font-size:18px;
+    font-style: italic;
+     margin-bottom:-10px ;
+}
+.title h4:before{
+    position:absolute;
+    content:"";
+    width:100px;
+    height:2px;
+   background-color: tomato;
+    bottom:0;
+    left:50%;
+   transform: translate(-50%);
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-menu{
+    flex-basis: 500px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid blueviolet;
+}
+.single-menu h4{
+    text-transform: capitalize;
+    font-size: 22px;
+    
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.single-menu h4 span{
+    float:right;
+    color:maroon;
+    font-style: normal;
+
+}
+#prod{
+    margin-top: 20px;
+}

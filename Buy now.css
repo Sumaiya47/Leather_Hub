@@ -1,0 +1,110 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: century;
+}
+header{
+background-color:brown;
+  background-size: cover;
+  height:100vh;
+}
+ul{
+  list-style-type: none;
+ float:right;
+ margin-top:20px;
+}
+ul li{
+  display:inline-block;
+  width:80px;
+  
+}
+ul li a{
+  text-decoration: none;
+  color:black;
+  padding:1px 2px;
+ transition: 0.5 ease;
+}
+ul li a:hover{
+  background-color: yellowgreen;
+  color:black;
+}
+.div{float:left;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+form{
+border-radius: 3%;
+width:35%;
+margin:100px 7px;
+  padding : 10px; 
+  
+  float: left;
+  
+}
+#ok{
+  align-content: center;
+  border-radius: 2px;}
+ 
+input[type=text], select {
+  width: 87%;
+  padding: 5px 10px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background-color: wheat;
+  }
+input[type=address], select {
+  width: 87%;
+  padding: 5px 10px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background-color: wheat;
+}
+input[type=email], select {
+  width: 87%;
+  padding: 5px 10px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background-color: wheat;
+}
+input[type=number], select {
+  width: 87%;
+  padding: 5px 10px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background-color: wheat;
+
+}
+input[type=submit] {
+  background-color: wheat;
+  color:maroon;
+  padding: 10px 10px;
+  border: none;
+  border-radius:0px;
+  cursor:pointer;
+  padding-right: 25px;
+  display:block;
+  
+}
+#pra{
+ float:right;
+ margin-top: 200px;
+ margin-right: 50px;
+}
+
+
+
+
